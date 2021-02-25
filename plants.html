@@ -10,7 +10,27 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+  <nav  class ="navbar navbar-expand-md navbar-light bg-light">
+    <a class ="navbar-brand" href ="plants.html">Happy Plants</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id = "navbarSupportedContent" class ="collapse navbar-collapse">
+          <ul class ="navbar-nav mr-auto">
+            <li class = "nav-item active">
+                <a class ="nav-link" href="cat.html">Cat<span class="sr-only">(current)</span></a>
+                
+            </li>
+            <li>
+                <a class ="nav-link" href="Dog.html">Dog<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+
   <h1>Plants by Rasagna Reddy</h1>
+  <div class="container">
   <div class="row">
     <div class="col-sm-2">B</div>
     <div class="col-sm-2">A</div>
@@ -19,18 +39,205 @@
     <div class="col-sm-2">A</div>
     <div class="col-sm-2">R</div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md">Bamboo Plant</div>
     <div class="col-md">Abelia Plant</div>
     <div class="col-md">Needle palm Plant</div>
     <div class="col-md">Dahlia Plant</div>
-    <div class="col-md">Abelia Plant</div>
+    <div class="col-md">Abies Plant</div>
     <div class="col-md">Rain Lily</div>
   </div>
-  <div>
+</div>
+  <div class="container">
     Plant row breaks first, it has 770px as a breakpoint whereas letter row has 570px as breakpoint. 
     So plnat row breaks first compared to letter row.
   </div>
+
   <br>
+
+  <div class="container">
+    <div class="row">
+
+        
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <img class="img-fluid" src="Bamboo plant.jpg" style="height: 400px; width: 400px;" alt="plants">
+                </div>
+                <div class="col-sm-4">
+                    <img class="img-fluid" src="Dahlia Plant.jpg" style="height: 400px; width: 400px;" alt="plants">
+                </div>
+                <div class="col-sm-4">
+                    <img class="img-fluid" src="Rain lilly.jpg" style="height:400px; width: 400px;" alt="plants">
+                </div>
+            </div>
+        
+
+
+    </div>
+</div>
+
+<br>
+
+
+<div class="container thumbnail">
+    <div class="row">
+        
+            <div class="row">
+                <div class="col-sm-4">
+                    <img class="img-fluid img-thumbnail" src="Abies Plant.jpg" style="height: 400px; width: 400px;" alt="plants">
+                </div>
+
+                <div class="col-sm-4">
+                    <img class="img-fluid img-thumbnail" src="Abelia Plant.jpg" style="height: 400px; width: 400px;" alt="plants">
+                </div>
+                <div class="col-sm-4">
+                    <img class="img-fluid img-thumbnail" src="Needle palm plant.jpg" style="height: 400px; width: 400px;" alt="plants">
+                </div>
+            </div>
+        
+    </div>
+
+</div>
+
+<div class="container table">
+  <div class="table-responsive">
+      <table class="table table-hover table-bordered">
+          <th>
+              <tr class="table-secondary">
+                  <th>Letter</th>
+                  <th>plants</th>
+                  <th>City</th>
+                  <th>Food</th>
+              </tr>
+          </th>
+
+          <tbody>
+              <tr class="table-success">
+                  <td>B</td>
+                  <td>Bamboo</td>
+                  <td>Berlin</td>
+                  <td>Bread</td>
+
+              </tr>
+              <tr class="table-danger">
+                  <td>A</td>
+                  <td>Abelia</td>
+                  <td>Arkansas</td>
+                  <td>Almonds</td>
+
+              </tr>
+              <tr class="table-primary">
+                  <td>N</td>
+                  <td>Needle Palm</td>
+                  <td>Nairobi</td>
+                  <td>Nachos</td>
+
+              </tr>
+              <tr class="table-info">
+                  <td>D</td>
+                  <td>Dahlia</td>
+                  <td>Denver</td>
+                  <td>Donut</td>
+
+              </tr>
+              <tr class="table-warning">
+                  <td>A</td>
+                  <td>Abies</td>
+                  <td>Atlanta</td>
+                  <td>Avocados</td>
+
+              </tr>
+              <tr class="table-info">
+                  <td>R</td>
+                  <td>Rain lilly</td>
+                  <td>Rome</td>
+                  <td>Rasberries</td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+</div>
+<div class="container Buttons">
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group mr-3" role="group" aria-label="First group">
+          <button type="button" class="btn btn-success">B</button>
+          <button type="button" class="btn btn-success">A</button>
+          <button type="button" class="btn btn-success">N</button>
+      </div>
+
+      <div class="btn-group mr-3" role="group" aria-label="Second group">
+          <button type="button" class="btn btn-warning">D</button>
+          <button type="button" class="btn btn-warning">A</button>
+      </div>
+
+      <div class="btn-group" role="group" aria-label="Second group">
+          <button type="button" class="btn btn-danger">R</button>
+      </div>
+  </div>
+</div>
+<pre>
+    
+</pre>
+<div class="Container dropdown" style=padding-left:10mm;>
+    <button id ="Drop" type="button" class ="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DropDown</button>
+    <div class="dropdown-menu" aria-labelledby="Drop">
+        <a class="dropdown-item" href="cat.html">Cat</a>
+        <a class="dropdown-item" href="Dog.html">Dog</a>
+      </div>
+</div >
+<br>
+<form  style=padding-left:10mm;>
+    <div class ="form-group">
+        <label for="emailid">Email address</label>
+    <input type="email" class="form-control" id="emailExample" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class ="form-group">
+        <label for ="Plant">Plant</label>
+        <input type="text" class="form-control" id="plantName" aria-describedby="emailHelp" placeholder="Enter your plant">
+    </div>
+    <div class ="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+  <label class="form-check-label" for="exampleCheck1">Sign up for news Letter?</label>
+  </div>
+  <br>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<br>
+
+<div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="Bamboo plant.jpg" alt="Bamboo plant">
+  <div class="card-body">
+    <h5 class="card-title">Bamboo plant</h5>
+    <p class="card-text">Bamboos are a diverse group of evergreen perennial flowering plants in the subfamily Bambusoideae of the grass family Poaceae. The origin of the word "bamboo" is uncertain, but it probably comes from the Dutch or Portuguese language, which originally borrowed it from Malay or Kannada</p>
+    <a href="https://en.wikipedia.org/wiki/Babiana_stricta" class="btn btn-primary">Open</a>
+  </div>
+</div>
+
+
+<div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="Dahlia Plant.jpg" alt="Dahlia Plant">
+  <div class="card-body">
+    <h5 class="card-title">Dahlia Plant</h5>
+    <p class="card-text">Dahlia is a genus of bushy, tuberous, herbaceous perennial plants native to Mexico and Central America. A member of the Compositae (also called Asteraceae) family of dicotyledonous plants, its garden relatives thus include the sunflower, daisy, chrysanthemum, and zinnia. There are 42 species of dahlia, with hybrids commonly grown as garden plants.</p>
+    <a href="https://plantlust.com/plants/8135/abutilon-voodoo/#:~:text=One%20of%20the%20best%20dark,full%20sun%20for%20best%20results." class="btn btn-primary">Open</a>
+  </div>
+</div>
+
+
+<div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="Rain lilly.jpg" alt="Rain lilly">
+  <div class="card-body">
+    <h5 class="card-title">Rain lilly</h5>
+    <p class="card-text">Rain lily or rainlily is the common name for the following closely related genera of flowering plants</p>
+    <a href="https://en.wikipedia.org/wiki/Rose" class="btn btn-primary">Open</a>
+  </div>
+</div>
+
+
 </body>
 </html>
